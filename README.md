@@ -21,6 +21,7 @@ https://stackoverflow.com/questions/62082685/how-to-get-user-details-from-keyclo
 POST http://localhost:8080/auth/realms/<my_realm>/protocol/openid-connect/logout
 access type = public
 if access type = Credential/beareronly then client_secret required
+Content-Type: application/x-www-form-urlencoded
 curl -L -X POST  --insecure 'http://localhost:8080/auth/realms/Demo-Realm/protocol/openid-connect/token' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'client_id=tutorial-backend' \

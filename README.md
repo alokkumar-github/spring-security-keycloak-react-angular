@@ -34,3 +34,4 @@ curl -L -X POST  --insecure 'http://localhost:8080/auth/realms/Demo-Realm/protoc
 --data-urlencode 'grant_type=refresh_token' \
 
 https://geeks18.com/?p=1347
+https://introcs.cs.princeton.edu/java/61data/CRC16.java

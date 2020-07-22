@@ -35,3 +35,4 @@ curl -L -X POST  --insecure 'http://localhost:8080/auth/realms/Demo-Realm/protoc
 
 https://geeks18.com/?p=1347
 https://introcs.cs.princeton.edu/java/61data/CRC16.java
+https://medium.com/swlh/handling-access-and-refresh-tokens-using-axios-interceptors-3970b601a5da
